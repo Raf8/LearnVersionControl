@@ -1,0 +1,8 @@
+git fetch 
+-> update local copy
+
+git merge -no-ff <name>
+to merge without fast-forward
+
+git log -n 1
+Gives the number of the pull request (#1 )

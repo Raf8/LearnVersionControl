@@ -1,0 +1,36 @@
+git init --> to initialize .git file
+git status --> see which files have changed
+git add --file-- --> add files to stage area
+git reset --file-- --> to remove files from staging area
+
+You can also specify a commit message via the command line by running 
+git commit -m "Commit message" 
+
+git diff 
+w/o any arguments will return difference in working directory and staging area
+
+git diff --staged
+diff in stage and repository
+
+git branch 
+TO see different branches
+
+git branch <name> 
+inserts new branch
+
+git checkout <name> 
+to change the branch
+
+## TO check out other branches- changes etc
+git checkout <name>
+git log --graph --oneline master <name>
+## diff between master and <name>
+
+git merge master coins
+## merge coins into masters
+
+git show <name>
+## 
+
+git branch -d coins
+## delete coins branch
